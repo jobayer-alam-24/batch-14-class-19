@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    font-family: sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    margin-bottom: 0;
+    padding-top: 5px;
+    color: orangered;
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.top-nav-bar{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    border-bottom: 3px solid orangered;
+    z-index: 1;
+}
+.logo{
+    margin: 5px 10px;
+}
+
+.input{
+    height: 40px;
+    margin-left: 30px;
+    border: 1px solid orangered;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: none !important;
+}
+.input:focus{
+    border-color: orangered;
+}
+.input-group-text{
+    background: orangered;
+    border: 1px solid orangered;
+    margin: 3px 10px 3px 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 20px;
+    padding: 11px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.input-group-text:hover{
+    opacity: 1;
+}
+.search-box{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    position: relative;
+    left: 0;
+}
+.right-sec{
+    margin-left: auto;
+}
+.right-sec li{
+    border-right: 1px solid white;
+    background-color: orangered;
+}
+.cs-bg{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.3rem;
+    transition: all 0.3s ease;
+}
+.right-sec li:hover{
+    background-color: orange;
+}
+@media screen and (max-width: 818px){
+    .d-logo{
+        height: 50px;
+    }
+    .top-nav-bar{
+        display: flex;
+        flex-direction: column;
+    }
+    .right-sec{
+        display: none;
+    }
+}
+.sec-1{
+    margin-top: 2%;
+}
+.left-sec{
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: rgba(228, 226, 222, 0.37);
+}
+.left-sec .nav-link:hover{
+    text-decoration: underline;
+    color: orange;
+}
+.icon{
+    color: orangered;
+}
