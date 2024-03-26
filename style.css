@@ -29,8 +29,11 @@ h2{
 .logo{
     margin: 5px 10px;
 }
-
+.d-logo{
+    margin-right: 15%;
+}
 .input{
+    max-width: 400px;
     height: 40px;
     margin-left: 30px;
     border: 1px solid orangered;
@@ -67,6 +70,7 @@ h2{
 }
 .right-sec{
     margin-left: auto;
+    
 }
 .right-sec li{
     border-right: 1px solid white;
@@ -109,4 +113,7 @@ h2{
 }
 .icon{
     color: orangered;
+}
+.right-section{
+    box-shadow: 1px 4px 6px 0px rgba(17, 17, 17, 0.75);
 }
