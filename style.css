@@ -6,12 +6,11 @@
 body{
     overflow-x: hidden;
     font-family: sans-serif, Verdana, Geneva, Tahoma, sans-serif;
-    margin-bottom: 1000px;
 }
-h2{
+h2, h4{
     margin-bottom: 0;
     padding-top: 5px;
-    color: orangered;
+    color: #ffffff;
     font-weight: 500;
     font-style: normal;
 }
@@ -111,6 +110,9 @@ h2{
     font-weight: bold;
     background-color: rgba(228, 226, 222, 0.37);
 }
+.left-sec .nav-link{
+    font-size: 1.1rem;
+}
 .left-sec .nav-link:hover{
     text-decoration: underline;
     color: rgb(194, 116, 87);
@@ -168,5 +170,25 @@ h2{
     border-top: 1px solid white;
 }
 .cs-design:hover{
+    opacity: 1;
+}
+.foot{
+    height: 50vh;
+    background-color: #231F20;
+}
+.foot-con .nav-link{
+    transition: all 0.3s ease;
+    font-size: 1.1rem;
+}
+.foot-con .nav-link:hover{
+    text-decoration: underline;
+}
+.fa-icon{
+    margin-right: 2%;
+}
+.app-store{
+    opacity: 0.8;
+}
+.app-store:hover{
     opacity: 1;
 }
