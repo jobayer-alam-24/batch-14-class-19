@@ -6,6 +6,7 @@
 body{
     overflow-x: hidden;
     font-family: sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 1000px;
 }
 h2{
     margin-bottom: 0;
@@ -18,13 +19,13 @@ h2{
     text-decoration: none;
 }
 .top-nav-bar{
+    background-color: #231F20;
     display: flex;
     align-items: center;
     height: 80px;
     position: sticky;
     top: 0;
-    background-color: #fff;
-    border-bottom: 3px solid orangered;
+    border-bottom: 3px solid rgb(24, 22, 21);
     z-index: 1;
 }
 .logo{
@@ -37,7 +38,7 @@ h2{
     max-width: 400px;
     height: 40px;
     margin-left: 30px;
-    border: 1px solid orangered;
+    border: 1px solid  rgb(58, 38, 38);
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     border-top-right-radius: 0;
@@ -45,11 +46,11 @@ h2{
     box-shadow: none !important;
 }
 .input:focus{
-    border-color: orangered;
+    border-color: rgb(204, 190, 184);
 }
 .input-group-text{
-    background: orangered;
-    border: 1px solid orangered;
+    background: rgb(204, 115, 7);
+    border: 1px solid rgb(204, 115, 7);
     margin: 3px 10px 3px 0;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
@@ -75,7 +76,7 @@ h2{
 }
 .right-sec li{
     border-right: 1px solid white;
-    background-color: orangered;
+    background-color: rgb(70, 50, 43);
 }
 .cs-bg{
     display: flex;
@@ -84,7 +85,7 @@ h2{
     transition: all 0.3s ease;
 }
 .right-sec li:hover{
-    background-color: orange;
+    background-color: rgb(204, 115, 7);
 }
 @media screen and (max-width: 818px){
     .d-logo{
@@ -103,6 +104,7 @@ h2{
     margin-top: 2%;
 }
 .left-sec{
+    height: 585px;
     border-radius: 10px;
     padding: 10px 15px;
     font-family: sans-serif;
@@ -111,10 +113,10 @@ h2{
 }
 .left-sec .nav-link:hover{
     text-decoration: underline;
-    color: orange;
+    color: rgb(194, 116, 87);
 }
 .icon{
-    color: orangered;
+    color: rgb(194, 116, 87);
 }
 .right-section{
     box-shadow: 1px 4px 6px 0px rgba(17, 17, 17, 0.75);
@@ -129,7 +131,7 @@ h2{
     transform: scale(1.4);
 }
 .head-banner{
-    background-color: orangered;
+    background-color: rgb(61, 45, 39);
     color: white;
     font-size: 1.3rem;
     padding: 10px 15px;
@@ -155,14 +157,14 @@ h2{
 }
 .cs-design{
     border: none;
-    background-color: rgb(25, 156, 179);
+    background-color: rgb(70, 50, 43);
     padding: 8px 15px;
     color: white;
     font-size: 1.2rem;
     opacity: 0.9;
 }
 .bg-cs{
-    background-color: tomato;
+    background-color: rgb(204, 115, 7);
     border-top: 1px solid white;
 }
 .cs-design:hover{
