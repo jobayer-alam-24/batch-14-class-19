@@ -186,7 +186,73 @@ h2, h4{
     display: flex;
     justify-content: space-between;
 }
-
+.cs-bg-color{
+    background-color: #231f20e7;
+}
+.container-form{
+    width: 85%;
+    max-width: 550px;
+    margin: 80px auto;
+    background-color: white;
+    padding: 30px 60px 50px 50px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #231F20;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.regis-main-form{
+    display: grid;
+    row-gap: 20px;
+}
+.regis-main-form label{
+    font-family: Tahoma, sans-serif;
+    display: inline-block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.regis-main-form input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border: 1px ridge rgba(31, 29, 18, 0.795);
+    font-size: 15px;
+    border-radius: 5px;
+}
+.regis-main-form input:focus{
+    box-shadow: rgba(16, 224, 196, 0.795) 0px 4px 12px;
+}
+.container-form-title{
+    text-align: center;
+    padding: 25px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.btn-hero{
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    background: linear-gradient(to right bottom, #5c321fde, #155e41de); 
+}
+.btn-hero:hover{
+    box-shadow: #08AEEA 0px 4px 12px, #2AF598 0px 4px 12px;
+}
+.cs-btn{
+    text-align: center;
+    text-decoration: none;
+    font-size: larger;
+    color: blue;
+}
+.cs-btn:hover{
+    text-decoration: underline;
+    opacity: 0.9;
+}
 /* Responsive codes  */
 @media screen and (max-width: 818px){
   
