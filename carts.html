@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>E-commerce project/carts</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- header section starts  -->
+  <header>
+    <div class="top-nav-bar">
+      <div class="search-box p-3 ">
+        <img src="images/logo.jpg" alt="logo" class="d-logo" width="180" height="80">  
+          <input type="text" class="form-control input" placeholder="search for products..">
+          <span class="input-group-text"><i class="fa fa-search text-white"></i></span>
+      </div>
+      <div class="right-sec">
+        <ul class="navbar-nav d-flex flex-column flex-md-row flex-grow-1 text-white cs-bg">
+          <li class="flex-fill mb-md-0 mb-2 p-2">
+              <a href="#" class="btn w-100 h-100 cs-bg text-white">
+                  <i class="fa-solid fa-cart-shopping mt-1 mx-1"></i> Cart
+              </a>
+          </li>
+          <li class="flex-fill mb-md-0 mb-2 p-2">
+              <a href="sign-up.html" target="_blank" class="btn w-100 h-100 cs-bg text-white">Sign up</a>
+          </li>
+          <li class="flex-fill mb-md-0 mb-2 p-2">
+              <a href="log-in.html" target="_blank" class="btn w-100 h-100 text-white cs-bg">Log in</a>
+          </li>
+      </ul>
+      </div>
+    </div>
+  </header>
+  <!-- header section ends -->
+  <!-- main section start here  -->
+  <main>
+    <!-- section 1 starts  -->
+    <div class="container mt-5">
+      <div class="head-sec text-center my-5">
+        <h3 class="fs-3 cart-head pb-4">Shopping carts</h3>
+      </div>
+      <div class="row bg-cs-cart">
+        <div class="col-md-2"></div>
+        <div class="col-md-2">
+          <p class="fs-5 mb-0 p-2">Product images</p>
+        </div>
+        <div class="col-md-2">
+          <p class="fs-5 mb-0 p-2">Products</p>
+        </div>
+        <div class="col-md-2">
+          <p class="fs-5 mb-0 p-2">Price</p>
+        </div>
+        <div class="col-md-2">
+          <p class="fs-5 mb-0 p-2">Quantity</p>
+        </div>
+        <div class="col-md-2">
+          <p class="fs-5 mb-0 p-2">Subtotal</p>
+        </div>  
+      </div>
+      <div class="row my-5 d-flex align-items-center">
+        <div class="col-md-2 d-flex align-items-center">
+          <img src="images/cross.png" alt="cross-tik" width="20" >
+        </div>
+        <div class="col-md-2">
+          <img src="images/show-1.jpg" alt="shoe" width="130" height="100">
+        </div>
+        <div class="col-md-2">
+          <p>Navy Blue shoe</p>
+        </div>
+        <div class="col-md-2">
+          <p><b><i>$40.00</i></b></p>
+        </div>
+        <div class="col-md-2">
+          <button type="button" class=" cs-btn-design">1</button>
+        </div>
+        <div class="col-md-2">
+          <p><b><i>$40.00</i></b></p>
+        </div>  
+      </div>
+      <div class="row my-5 d-flex align-items-center">
+        <div class="col-md-2 d-flex align-items-center">
+          <img src="images/cross.png" alt="cross-tik" width="20" >
+        </div>
+        <div class="col-md-2">
+          <img src="images/headset.jpg" alt="head-set" width="130" height="100">
+        </div>
+        <div class="col-md-2">
+          <p>Head-set</p>
+        </div>
+        <div class="col-md-2">
+          <p><b><i>$70.00</i></b></p>
+        </div>
+        <div class="col-md-2">
+          <button type="button" class=" cs-btn-design">5</button>
+        </div>
+        <div class="col-md-2">
+          <p><b><i>$70.00</i></b></p>
+        </div>  
+      </div>
+      <div class="row my-5 d-flex align-items-center">
+        <div class="col-md-2 d-flex align-items-center">
+          <img src="images/cross.png" alt="cross-tik" width="20" >
+        </div>
+        <div class="col-md-2">
+          <img src="images/sm-1.jpg" alt="watch" width="130" height="100">
+        </div>
+        <div class="col-md-2">
+          <p>Smart watch</p>
+        </div>
+        <div class="col-md-2">
+          <p><b><i>$90.00</i></b></p>
+        </div>
+        <div class="col-md-2">
+          <button type="button" class=" cs-btn-design">6</button>
+        </div>
+        <div class="col-md-2">
+          <p><b><i>$90.00</i></b></p>
+        </div>  
+      </div>
+    </div>
+    <!-- section 1 ends  -->
+  </main>
+  <!-- main section ends here  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

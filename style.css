@@ -253,6 +253,17 @@ h2, h4{
     text-decoration: underline;
     opacity: 0.9;
 }
+.cs-btn-design{
+    padding: 5px 10px;
+    border: 1px solid black;
+    background-color: #e7dede;
+}
+.cart-head{
+    border-bottom: 2px solid black;
+}
+.bg-cs-cart{
+    background-color: #dbd1d1;
+}
 /* Responsive codes  */
 @media screen and (max-width: 818px){
   
