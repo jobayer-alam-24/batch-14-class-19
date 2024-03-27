@@ -272,8 +272,13 @@ h2, h4{
         flex-direction: column;
     }
     .right-sec{
-        display: none;
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 5%;
     }
+   .cs-bg{
+    justify-content: center;
+   }
    
 }
 @media screen and (max-width: 808px){
@@ -316,6 +321,9 @@ h2, h4{
 @media screen and (max-width: 767px){
     .cs-mar{
         margin-top: 5%;
+    }
+    .left-sec{
+        margin-top: 10%;
     }
 }
 /* Responsive codes  */
