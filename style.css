@@ -83,21 +83,8 @@ h2, h4{
     font-size: 1.3rem;
     transition: all 0.3s ease;
 }
-.right-sec li:hover{
-    background-color: rgb(204, 115, 7);
-}
-@media screen and (max-width: 818px){
-    .d-logo{
-        height: 50px;
-    }
-    .top-nav-bar{
-        display: flex;
-        flex-direction: column;
-    }
-    .right-sec{
-        display: none;
-    }
-   
+.right-sec li:hover{   
+ background-color: rgb(204, 115, 7);
 }
 .sec-1{
     margin-top: 2%;
@@ -173,8 +160,8 @@ h2, h4{
     opacity: 1;
 }
 .foot{
-    height: 300px;
     background-color: #231F20;
+    position: relative;
 }
 .foot-con .nav-link{
     transition: all 0.3s ease;
@@ -192,3 +179,66 @@ h2, h4{
 .app-store:hover{
     opacity: 1;
 }
+.cards{
+    width: 18rem;
+}
+.custom-layout{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Responsive codes  */
+@media screen and (max-width: 818px){
+  
+    .top-nav-bar{
+        display: flex;
+        flex-direction: column;
+    }
+    .right-sec{
+        display: none;
+    }
+   
+}
+@media screen and (max-width: 808px){
+   .search-box{
+        width: 100%;
+   }
+   .d-logo{
+    height: 60px;
+}
+   
+}
+@media screen and (max-width: 991px){
+    .cards{
+        width: 25rem;
+        margin-bottom: 5%;
+    }
+    .custom-layout{
+        flex-direction: column;
+        align-items: center;
+    }
+    .head-banner{
+        width: 100%;
+        border-bottom-right-radius: 0%;
+        text-align: center;
+    }
+    .for-cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+@media screen and (max-width: 576px){
+    .foot{
+        text-align: center;
+    }
+    .cs-mar{
+        margin-top: 5%;
+    }
+}
+@media screen and (max-width: 767px){
+    .cs-mar{
+        margin-top: 5%;
+    }
+}
+/* Responsive codes  */
